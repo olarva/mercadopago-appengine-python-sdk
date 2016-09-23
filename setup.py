@@ -24,19 +24,19 @@ class Tests(Command):
 
 
 setup(
-    name='mercadopago',
-    version='0.3.4',
-    author='Horacio Casatti <horacio.casatti@mercadolibre.com>',
-    author_email='horacio.casatti@mercadolibre.com',
-    keywords='api mercadopago checkout payment ipn sdk integration',
-    packages=['mercadopago'],
-    url='https://github.com/mercadopago/sdk-python',
-    description='Mercadopago SDK module for Payments integration',
+    name='mercadopago-appengine-python',
+    version='0.0.1',
+    author='Lauro Cesar de Oliveira',
+    author_email='olarva@gmail.com',
+    keywords='api mercadopago checkout payment ipn sdk integration for google appengine',
+    packages=['mercadopago-appengine-python'],
+    url='https://github.com/olarva/mercadopago-appengine-python-sdk',
+    description='Mercadopago SDK module for Payments integration for Google Appengine, forked from mercadopago/sdk-python',
     long_description=open('README.rst').read(),
     install_requires='requests>=2.4.3',
     cmdclass = {'test': Tests},
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 1 - Beta',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
